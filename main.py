@@ -49,7 +49,7 @@ def read_csv_in_chunks(file_path, encodings, chunksize=100000):
 @benchmark
 def main():
     # Directory containing CSV files
-    csv_dir = "sample"
+    csv_dir = "csv_files"
     # List all CSV files in the directory
     csv_files = [file for file in os.listdir(csv_dir) if file.endswith(".csv")]
 
